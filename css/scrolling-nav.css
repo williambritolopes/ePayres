@@ -33,34 +33,34 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site.
 */
 
-.logo {
-    width: 20%;
-}
-img{
-    width: 100%;
-}
-
 .navtext:hover {
     color: #EA5905 !important;
 }
 
+.logo{
+    height: 3em;
+    width: 13em;
+}
 
 .intro-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    /*background: #fff;*/
+    background: #eee;
     background-image: url("../img/epay_background_1.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover ;
 
 }
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
+    background-image: url("../img/epay_background_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
 
 .business-section {
