@@ -7,6 +7,7 @@
 body {
     width: 100%;
     height: 100%;
+    color: #000000;
 }
 
 html {
@@ -37,9 +38,45 @@ of those sections to manage the look and feel of the site.
     color: #EA5905 !important;
 }
 
+.navbar-nav>.active>a {
+    background-color: #f8f8f8 !important;
+}
+
 .logo{
     height: 3em;
     width: 13em;
+}
+.btn-custon{
+    background-color: #CA4935;
+    color: #f8f8f8;
+    font-size: 27px;
+    text-align: justify;
+    size: 10px;
+}
+
+@font-face {
+    src: url("../fonts/caviar_dreams/CaviarDreams.ttf");
+}
+
+.caviardreams {
+    font-family: "CaviarDreams";
+    /*font-size: 2.0em;*/
+    text-align: left;
+    color: #000000;
+    /*line-height: 2.0em;*/
+}
+.caviardreams > p {
+    font-family: "CaviarDreams";
+    font-size: 2.0em;
+    text-align: left;
+    color: #000000;
+    /*line-height: 2.0em;*/
+}
+.caviardreamsTop > li > a{
+    font-family: 'Caviar-Dreams-Regular' !important;
+    color: #000000 !important;
+    font-size: 1.37em;
+    /*font-weight: 100;*/
 }
 
 .intro-section {
