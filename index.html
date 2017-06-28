@@ -13,7 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
@@ -47,7 +47,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav caviardreamsTop">
+                <ul class="nav navbar-nav josefinfontTop">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
@@ -56,16 +56,10 @@
                         <a class="page-scroll navtext" href="#about">Quem Somos</a>
                     </li>
                     <li>
-                        <a class="page-scroll navtext" href="#business">Nossos Negócios</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll navtext" href="#costumers">Nossos Clientes</a>
+                        <a class="page-scroll navtext" href="#business">Nossos Serviços</a>
                     </li>
                     <li>
                         <a class="page-scroll navtext" href="#blog">Blog</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll navtext" href="#contact">Fale Conosco</a>
                     </li>
                     <li>
                         <a class="page-scroll navtext" href="#services">Portal de Serviços</a>
@@ -81,38 +75,41 @@
     <section id="intro" class="intro-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 caviardreams">
+                <div class="col-lg-12 josefinfont">
                     <span class="">
                         <h1>A epay Brasil tem a solução certa para aumentar as suas vendas e gerar uma nova experiência de engajamento para o seu público.</h1>
                     </span>
                     <br/>
                     <br/>
 
-                    <p>Cartão Presente Marca Própria</p>
-                    <p>Cartão Presente de Grandes Marcas</p>
-                    <p>Cartão Presente Digital</p>
-                    <p>Plataforma de Fidelidade & Relacionamento</p>
-                    <p>Pin Impresso</p>
-                    <p>Recarga de Celular</p>
+                        <p>Cartão Presente Marca Própria</p>
+                        <p>Cartão Presente de Grandes Marcas</p>
+                        <p>Cartão Presente Digital</p>
+                        <p>Plataforma de Fidelidade & Relacionamento</p>
+                        <p>Pin Impresso</p>
+                        <p>Recarga de Celular</p>
                     <br/>
                     <div class="col-lg-1">
 
                     </div>
                     <div class="col-lg-2">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-custon btn-lg">Fale conosco</button>
+                            <!--<button type="button" class="btn btn-custon btn-lg"> -->
+                                <a class="page-scroll btn btn-custom" href="#contact">Fale conosco</a>
+                            <!--</button>-->
                         </div>
                     </div>
                     <div class="col-lg-2">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-custon btn-lg">Conheça nossos clientes</button>
+                            <!--<button type="button" class="btn btn-custon btn-lg"> -->
+                                <a class="page-scroll btn btn-custom" href="#costumers">Conheça nossos clientes</a>
+                            <!--</button>-->
                         </div>
+                        <!--<button type="button" class="btn btn-custon btn-lg"></button>-->
                     </div>
                     <div class="col-lg-7">
 
                     </div>
-
-
 
                 </div>
             </div>
@@ -120,7 +117,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section">
+    <section id="about" class="about-section josefinfont">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -164,7 +161,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="business" class="business-section">
+    <section id="business" class="business-section josefinfont">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -175,7 +172,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="costumers" class="costumers-section">
+    <section id="costumers" class="costumers-section josefinfont">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -187,7 +184,7 @@
 
 
     <!-- Contact Section -->
-    <section id="blog" class="blog-section">
+    <section id="blog" class="blog-section josefinfont">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -199,13 +196,48 @@
 
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section josefinfont">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Fale Conosco</h1>
+                <div class="col-lg-12 contact-section-top">
+                    <h1 class="contact_h1">Fale Conosco</h1>
                 </div>
             </div>
+            <br/>
+
+            <div class="contactform">
+
+                <form action="#">
+                    <label for="fname">Nome</label>
+                    <input type="text" id="fname" name="name" placeholder="Seu Nome">
+
+                    <label for="fmail">E-mail</label>
+                    <input type="text" id="fmail" name="email" placeholder="Seu E-mail">
+
+                    <label for="ftel">Telefone</label>
+                    <input type="text" id="ftel" name="tel" placeholder="Telefone">
+
+                    <label for="subject">Escolha um assunto...</label>
+                    <select id="subject" name="fsubject">
+                        <option value=""></option>
+                        <option value="CartaoPresente">Cartão Presente</option>
+                        <option value="Empresa">Para Empresas</option>
+                        <option value="RecargaCelular">Recarga de Celular</option>
+                        <option value="TrabalheConosco">Trabalhe Conosco</option>
+                    </select>
+
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="fmessage" placeholder="Escreva sua mensagem..." style="height:200px"></textarea>
+
+                    <label for="message" class="hidden">Currículo</label>
+                    <input type="file" class="hidden"  name="fileToUpload" id="fileToUpload">
+
+                    <input type="submit" class="btn btn-default btn-default-custom" value="Enviar">
+
+                </form>
+
+            </div>
+
         </div>
     </section>
 

@@ -41,39 +41,56 @@ of those sections to manage the look and feel of the site.
 .navbar-nav>.active>a {
     background-color: #f8f8f8 !important;
 }
+.navbar-nav{
+    float:right !important;
+}
 
 .logo{
     height: 3em;
-    width: 13em;
+    width: 17em;
+    padding: 4px 15px;
 }
-.btn-custon{
+.btn-custom{
     background-color: #CA4935;
     color: #f8f8f8;
     font-size: 27px;
-    text-align: justify;
-    size: 10px;
+    text-align: center;
+    text-indent: 7px;
+    size: 11em;
+    position:absolute;
+    font-weight: bolder;
+}
+.btn-default-custom{
+    position: relative;
+    margin-left: 80%;
+
+    /*width: 50px;*/
+    /*position: fixed;*/
+    /*bottom: 1%;*/
+    /*right: 1%;*/
 }
 
-@font-face {
-    src: url("../fonts/caviar_dreams/CaviarDreams.ttf");
+.contact_h1{
+    color: #213485;
+    font-weight: bolder;
 }
 
-.caviardreams {
-    font-family: "CaviarDreams";
+.josefinfont {
+    font-family: 'Josefin Sans', sans-serif;
     /*font-size: 2.0em;*/
     text-align: left;
     color: #000000;
     /*line-height: 2.0em;*/
 }
-.caviardreams > p {
-    font-family: "CaviarDreams";
+.josefinfont > p {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 2.0em;
     text-align: left;
     color: #000000;
     /*line-height: 2.0em;*/
 }
-.caviardreamsTop > li > a{
-    font-family: 'Caviar-Dreams-Regular' !important;
+.josefinfontTop > li > a{
+    font-family: 'Josefin Sans', sans-serif !important;
     color: #000000 !important;
     font-size: 1.37em;
     /*font-weight: 100;*/
@@ -123,9 +140,62 @@ of those sections to manage the look and feel of the site.
 .contact-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
-    background: #fff;
+    text-align: left;
+    background: #eee;
+    background-image: url("../img/background_contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+
 }
+.contact-section-top{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contactform {
+    background: rgb(248, 248, 248);
+    background: transparent;
+    background: rgba(248, 248, 248, 0.4);
+    border-radius: 12px;
+    font-size: 1.5em;
+}
+
+.about-section > div {
+    background: rgb(248, 248, 248);
+    background: transparent;
+    background: rgba(154, 154, 154, 0.4);
+    border-radius: 12px;
+    font-size: 1.5em;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #CA4935;
+    color: #f8f8f8;
+    padding: 1.20em 2.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.7em;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #CA4935;
+}
+
+/* Add a background color and some padding around the form */
 
 .services-section {
     height: 100%;
