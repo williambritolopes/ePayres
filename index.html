@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,7 +42,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll logo" href="#page-top">
-                    <img src="img/logo_epay.svg" alt="Minha linda imagem em SVG">
+                    <img src="img/logo_epay.svg">
                 </a>
             </div>
 
@@ -120,40 +121,40 @@
     <section id="about" class="about-section josefinfont">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 about-top">
                     <h1>Especialista em Soluções Pré-Pagas</h1>
+                    <br>
                 </div>
-
                 <div class="col-lg-4">
 
                     <h2>Quem Somos:</h2>
                     <ul>
-                        <li>Empresa do grupo Euronet Worldwide com ações na Nasdaq (EEFT)</li>
-                        <li>Maior processadora de transações pré-pagas do mundo</li>
-                        <li>Presente em 33 países</li>
-                        <li>Mais de 674 mil pontos de venda no mundo</li>
+                        <li><h4>Empresa do grupo Euronet Worldwide com ações na Nasdaq (EEFT)</h4></li>
+                        <li><h4>Maior processadora de transações pré-pagas do mundo</h4></li>
+                        <li><h4>Presente em 33 países</h4></li>
+                        <li><h4>Mais de 674 mil pontos de venda no mundo</h4></li>
                     </ul>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 columid">
                     <h2>O que fazemos:</h2>
                     <ul>
-                        <li>Soluções customizadas para produtos pré-pagos, tais como: </li>
-                        <li>Cartões presente</li>
-                        <li>Cartões com conteúdos diversos (jogos, cursos, ingressos, experiências)</li>
-                        <li>Cupons promocionais</li>
-                        <li>Recargas para celular</li>
+                        <li><h4>Soluções customizadas para produtos pré-pagos, tais como: </h4></li>
+                        <li><h4>Cartões presente</h4></li>
+                        <li><h4>Cartões com conteúdos diversos (jogos, cursos, ingressos, experiências)</h4></li>
+                        <li><h4>Cupons promocionais</h4></li>
+                        <li><h4>Recargas para celular</h4></li>
 
                     </ul>
                 </div>
                 <div class="col-lg-4">
                     <h2>Por que fazemos:</h2>
                     <ul>
-                        <li>Ampliar a oferta de produtos e serviços pelo varejo</li>
-                        <li>Oferecer uma melhor experiência de compra ao consumidor</li>
-                        <li>Rentabilizar o negócio dos nossos parceiros</li>
-                        <li>Aumentar a visibilidade de marcas e produtos</li>
-                        <li>Conectar marcas e consumidores via diferentes tecnologias</li>
+                        <li><h4>Ampliar a oferta de produtos e serviços pelo varejo</h4></li>
+                        <li><h4>Oferecer uma melhor experiência de compra ao consumidor</h4></li>
+                        <li><h4>Rentabilizar o negócio dos nossos parceiros</h4></li>
+                        <li><h4>Aumentar a visibilidade de marcas e produtos</h4></li>
+                        <li><h4>Conectar marcas e consumidores via diferentes tecnologias</h4></li>
                     </ul>
                 </div>
             </div>
@@ -199,7 +200,7 @@
     <section id="contact" class="contact-section josefinfont">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 contact-section-top">
+                <div class="col-lg-12 section-top">
                     <h1 class="contact_h1">Fale Conosco</h1>
                 </div>
             </div>
@@ -229,8 +230,11 @@
                     <label for="message">Mensagem</label>
                     <textarea id="message" name="fmessage" placeholder="Escreva sua mensagem..." style="height:200px"></textarea>
 
-                    <label for="message" class="hidden">Currículo</label>
-                    <input type="file" class="hidden"  name="fileToUpload" id="fileToUpload">
+
+                    <label for="message" id="label-hide" class="hidden cv">
+                        <img class="cv"   src="svg/curriculum.svg">  Currículo
+                    </label>
+                    <input type="file" id="input-hide" class="hidden cv"  name="fileToUpload" id="fileToUpload">
 
                     <input type="submit" class="btn btn-default btn-default-custom" value="Enviar">
 
@@ -241,12 +245,59 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="services" class="services-section">
+    <!-- Talk Section -->
+    <section id="services" class="services-section josefinfont">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Portal de Serviços</h1>
+                <div class="col-lg-12 section-top">
+                    <h1>Nossos escritórios</h1>
+                </div>
+            </div>
+            <div class="row panel-group section-bot">
+                <div class="col-lg-4">SÃO PAULO
+                    <div id="sidebar">
+                        <p class="address"><label>Endereço:</label> Rua Bandeira Paulista, 600 cj. 121/122</p>
+                        <p class="city"><label>Cidade:</label> São Paulo</p>
+                        <p class="details"><label>Telefone:</label> (11) 5213-1011</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">BAHIA
+                    <div id="sidebar">
+                        <p class="address"><label>Endereço:</label> Av. Otávio Mangabeira, 2401 lj 12</p>
+                        <p class="city"><label>Cidade:</label> Salvador</p>
+                        <p class="details"><label>Telefone:</label> (11) 5213-1011</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">PERNANBUCO
+                    <div id="sidebar">
+                        <p class="address"><label>Endereço:</label> Rua Ernesto de Paula Santos, 960 sl. 803</p>
+                        <p class="city"><label>Cidade:</label> Recife</p>
+                        <p class="details"><label>Telefone:</label> (81) 3081-6711</p>
+                    </div>
+                </div>
+            </div>
+                <div class="row panel-group section-bot">
+                    <div class="col-lg-4 ">CEARÁ
+                        <div id="sidebar">
+                            <p class="address"><label>Endereço:</label> Av. Desembargador Moreira, 2020 sl. 505</p>
+                            <p class="city"><label>Cidade:</label> Fortaleza</p>
+                            <p class="details"><label>Telefone:</label> (85) 3261-3647</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">RIO DE JANEIRO
+                        <div id="sidebar">
+                            <p class="address"><label>Endereço:</label> Rua Bandeira Paulista, 600 cj. 121/122</p>
+                            <p class="city"><label>Cidade:</label> Rio de Janeiro</p>
+                            <p class="details"><label>Telefone:</label> (21) 2220-4200</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">RIO GRANDE DO SUL
+                        <div id="sidebar">
+                            <p class="address"><label>Endereço:</label> Av. Auréliano de Figueiredo Pinto, 575 sl. 506</p>
+                            <p class="city"><label>Cidade:</label> Porto Alegre</p>
+                            <p class="details"><label>Telefone:</label> (51) 3224-9711</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -262,6 +313,19 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <!--<script type='text/javascript' src='/js/jquery.mousewheel.min.js'></script>-->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#subject").on("change", function () {
+                if ($("#subject option:selected").val() != "TrabalheConosco" || $("#subject option:selected").val() == undefined) {
+                    $("#label-hide, #input-hide").addClass("hidden");
+                }else{
+                    $("#label-hide, #input-hide").removeClass("hidden");
+                }
+            });
+        });
+    </script>
 
 </body>
 
