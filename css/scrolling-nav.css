@@ -146,7 +146,7 @@ of those sections to manage the look and feel of the site.
 }
 
 .contact-section {
-    height: 62em;
+    height: 104%;
     padding-top: 3em;
     text-align: left;
     background: #eee;
@@ -231,13 +231,14 @@ input[type=submit]:hover {
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: left;
-    background-color: #72B5FF ;
+    background-color: #eee ;
     /*background: #eee;*/
     background-image: url("../img/Brazil_Blank_Map.png");
     background-repeat: no-repeat;
     background-size: 36em 32em;
     background-position: left;
     padding-left: 30em;
+
 }
 
 
@@ -257,18 +258,18 @@ input[type=submit]:hover {
  }
 
 #sidebar{
-    opacity : 0;
+    /*opacity : 0;*/
     font-size: 0.7em;
 }
-img:hover ~ #sidebar {
-    opacity : 1;
-}
-#sidebar:hover {
-    opacity : 1;
-}
-#sidebar:not(hover) {
-    animation-delay:2s;
-    -webkit-animation-delay:2s;
-    -webkit-transition: opacity 1s ease-out;
-    opacity : 0;
-}
+/*img:hover ~ #sidebar {*/
+    /*opacity : 1;*/
+/*}*/
+/*#sidebar:hover {*/
+    /*opacity : 1;*/
+/*}*/
+/*#sidebar:not(hover) {*/
+    /*animation-delay:2s;*/
+    /*-webkit-animation-delay:2s;*/
+    /*-webkit-transition: opacity 1s ease-out;*/
+    /*opacity : 0;*/
+/*}*/
