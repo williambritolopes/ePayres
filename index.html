@@ -29,280 +29,262 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Scroll</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll logo" href="#page-top">
-                    <img src="img/logo_epay.svg">
-                </a>
+<body id="page-top " data-target=".navbar-fixed-top">
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container section0" id="section0">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Scroll</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" data-menuanchor="firstPage" href="#firstPage">
+                        <img src="img/logo_epay.svg">
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav josefinfontTop" id="menu">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li>
+                            <!--<a class="hidden" data-menuanchor="firstPage" href="#page-top"></a>-->
+                        </li>
+                        <li>
+                            <a class="navtext" data-menuanchor="secondPage" href="#secondPage">Quem Somos</a>
+                        </li>
+                        <li >
+                            <a class="navtext" data-menuanchor="3thPage"  href="#3thPage">Nossos Serviços</a>
+                        </li>
+                        <li>
+                            <a class="navtext"  href="http://epaybrasil.com.br/blog/">Blog</a>
+                        </li >
+                        <li>
+                            <a class="navtext"  href="https://portal.epaybrasil.com.br/site/home/home2.aspx">Portal de Serviços</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container -->
+        </nav>
+        <div id="fullpage" class="josefinfont">
+        <!-- Intro Section -->
+        <!--<section class="intro-section" >-->
+            <div id="section1" data-anchor="firstPage" class="section intro-section active fp-section fp-table fp-completely"">
+                <div class="row">
+                    <div class="col-lg-12 josefinfont intro-section-top">
+                        <span class="intro-section-top-top">
+                            A epay Brasil tem a solução certa para aumentar as suas vendas e gerar uma nova experiência de engajamento para o seu público.
+                        </span>
+                        <br/>
+                        <br/>
+                            <p>Cartão Presente Marca Própria</p>
+                            <p>Cartão Presente de Grandes Marcas</p>
+                            <p>Cartão Presente Digital</p>
+                            <p>Plataforma de Fidelidade & Relacionamento</p>
+                            <p>Pin Impresso</p>
+                            <p>Recarga de Celular</p>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav josefinfontTop">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll navtext" href="#about">Quem Somos</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll navtext" href="#business">Nossos Serviços</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll navtext" href="#blog">Blog</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll navtext" href="#services">Portal de Serviços</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 josefinfont">
-                    <span class="">
-                        <h1>A epay Brasil tem a solução certa para aumentar as suas vendas e gerar uma nova experiência de engajamento para o seu público.</h1>
-                    </span>
-                    <br/>
-                    <br/>
-
-                        <p>Cartão Presente Marca Própria</p>
-                        <p>Cartão Presente de Grandes Marcas</p>
-                        <p>Cartão Presente Digital</p>
-                        <p>Plataforma de Fidelidade & Relacionamento</p>
-                        <p>Pin Impresso</p>
-                        <p>Recarga de Celular</p>
-                    <br/>
+                    </div>
                     <div class="col-lg-1">
 
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-6">
                         <div class="btn-group">
                             <!--<button type="button" class="btn btn-custon btn-lg"> -->
-                                <a class="page-scroll btn btn-custom" href="#contact">Fale conosco</a>
+                            <a class="btn btn-custom" data-menuanchor="contatoPage" href="#contatoPage">Fale conosco</a>
                             <!--</button>-->
                         </div>
-                    </div>
-                    <div class="col-lg-2">
+
                         <div class="btn-group">
                             <!--<button type="button" class="btn btn-custon btn-lg"> -->
-                                <a class="page-scroll btn btn-custom" href="#costumers">Conheça nossos clientes</a>
+                            <a class="btn btn-custom" data-menuanchor="clientsPage" href="#clientsPage">Conheça nossos clientes</a>
                             <!--</button>-->
                         </div>
                         <!--<button type="button" class="btn btn-custon btn-lg"></button>-->
                     </div>
-                    <div class="col-lg-7">
+                </div>
+            </div>
+        <!--</section>-->
+
+        <!-- About Section -->
+        <!--<section class="josefinfont">-->
+            <div data-anchor="secondPage" id="section2" class=" container section ">
+                <div class="row">
+                    <div class="row about-section-top">
 
                     </div>
+                    <div class="row about-section-bot">
+                        <div class="col-lg-4 about-bot" >
 
-                </div>
-            </div>
-        </div>
-    </section>
+                            <h2>Especialista em soluções pré-pagas, a epay Brasil é uma empresa do grupo Euronet, maior processadora
+                                de transações pré-pagas do mundo.</h2>
+                            <ul>
+                                <!--<li><h4>Empresa do grupo Euronet Worldwide com ações na Nasdaq (EEFT)</h4></li>-->
+                                <!--<li><h4>Maior processadora de transações pré-pagas do mundo</h4></li>-->
+                                <!--<li><h4>Presente em 33 países</h4></li>-->
+                                <!--<li><h4>Mais de 674 mil pontos de venda no mundo</h4></li>-->
+                            </ul>
+                        </div>
 
-    <!-- About Section -->
-    <section id="about" class="about-section josefinfont">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 about-top">
-                    <h1>Especialista em Soluções Pré-Pagas</h1>
-                    <br>
-                </div>
-                <div class="col-lg-4">
+                        <div class="col-lg-4">
+                            <h2>Nosso propósito é ampliar a oferta de produtos e serviços no varejo, conectando grandes marcas comseus clientes, oferecendo uma experiência por meio de diferentes tecnologias.</h2>
+                            <ul>
+                                <!--<li><h4>Soluções customizadas para produtos pré-pagos, tais como: </h4></li>-->
+                                <!--<li><h4>Cartões presente</h4></li>-->
+                                <!--<li><h4>Cartões com conteúdos diversos (jogos, cursos, ingressos, experiências)</h4></li>-->
+                                <!--<li><h4>Cupons promocionais</h4></li>-->
+                                <!--<li><h4>Recargas para celular</h4></li>-->
 
-                    <h2>Quem Somos:</h2>
-                    <ul>
-                        <li><h4>Empresa do grupo Euronet Worldwide com ações na Nasdaq (EEFT)</h4></li>
-                        <li><h4>Maior processadora de transações pré-pagas do mundo</h4></li>
-                        <li><h4>Presente em 33 países</h4></li>
-                        <li><h4>Mais de 674 mil pontos de venda no mundo</h4></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 columid">
-                    <h2>O que fazemos:</h2>
-                    <ul>
-                        <li><h4>Soluções customizadas para produtos pré-pagos, tais como: </h4></li>
-                        <li><h4>Cartões presente</h4></li>
-                        <li><h4>Cartões com conteúdos diversos (jogos, cursos, ingressos, experiências)</h4></li>
-                        <li><h4>Cupons promocionais</h4></li>
-                        <li><h4>Recargas para celular</h4></li>
-
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h2>Por que fazemos:</h2>
-                    <ul>
-                        <li><h4>Ampliar a oferta de produtos e serviços pelo varejo</h4></li>
-                        <li><h4>Oferecer uma melhor experiência de compra ao consumidor</h4></li>
-                        <li><h4>Rentabilizar o negócio dos nossos parceiros</h4></li>
-                        <li><h4>Aumentar a visibilidade de marcas e produtos</h4></li>
-                        <li><h4>Conectar marcas e consumidores via diferentes tecnologias</h4></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="business" class="business-section josefinfont">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Nossos Negócios</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="costumers" class="costumers-section josefinfont">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Nossos Clientes</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="blog" class="blog-section josefinfont">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Blog</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section josefinfont">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 section-top">
-                    <h1 class="contact_h1">Fale Conosco</h1>
-                </div>
-            </div>
-            <br/>
-
-            <div class="contactform">
-
-                <form action="#">
-                    <label for="fname">Nome</label>
-                    <input type="text" id="fname" name="name" placeholder="Seu Nome">
-
-                    <label for="fmail">E-mail</label>
-                    <input type="text" id="fmail" name="email" placeholder="Seu E-mail">
-
-                    <label for="ftel">Telefone</label>
-                    <input type="text" id="ftel" name="tel" placeholder="Telefone">
-
-                    <label for="subject">Escolha um assunto...</label>
-                    <select id="subject" name="fsubject">
-                        <option value=""></option>
-                        <option value="CartaoPresente">Cartão Presente</option>
-                        <option value="Empresa">Para Empresas</option>
-                        <option value="RecargaCelular">Recarga de Celular</option>
-                        <option value="TrabalheConosco">Trabalhe Conosco</option>
-                    </select>
-
-                    <label for="message">Mensagem</label>
-                    <textarea id="message" name="fmessage" placeholder="Escreva sua mensagem..." style="height:200px"></textarea>
-
-
-                    <label for="message" id="label-hide" class="hidden cv">
-                        <img class="cv"   src="svg/curriculum.svg">  Currículo
-                    </label>
-                    <input type="file" id="input-hide" class="hidden cv"  name="fileToUpload" id="fileToUpload">
-
-                    <input type="submit" class="btn btn-default btn-default-custom" value="Enviar">
-
-                </form>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Talk Section -->
-    <section id="services" class="services-section josefinfont">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 section-top">
-                    <h1>Nossos escritórios</h1>
-                </div>
-            </div>
-            <div class="row panel-group section-bot">
-                <div class="col-lg-4">SÃO PAULO
-                    <div id="sidebar">
-                        <p class="address"><label>Endereço:</label> Rua Bandeira Paulista, 600 cj. 121/122</p>
-                        <p class="city"><label>Cidade:</label> São Paulo</p>
-                        <p class="details"><label>Telefone:</label> (11) 5213-1011</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 ">BAHIA
-                    <div id="sidebar">
-                        <p class="address"><label>Endereço:</label> Av. Otávio Mangabeira, 2401 lj 12</p>
-                        <p class="city"><label>Cidade:</label> Salvador</p>
-                        <p class="details"><label>Telefone:</label> (11) 5213-1011</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 ">PERNANBUCO
-                    <div id="sidebar">
-                        <p class="address"><label>Endereço:</label> Rua Ernesto de Paula Santos, 960 sl. 803</p>
-                        <p class="city"><label>Cidade:</label> Recife</p>
-                        <p class="details"><label>Telefone:</label> (81) 3081-6711</p>
-                    </div>
-                </div>
-            </div>
-                <div class="row panel-group section-bot">
-                    <div class="col-lg-4 ">CEARÁ
-                        <div id="sidebar">
-                            <p class="address"><label>Endereço:</label> Av. Desembargador Moreira, 2020 sl. 505</p>
-                            <p class="city"><label>Cidade:</label> Fortaleza</p>
-                            <p class="details"><label>Telefone:</label> (85) 3261-3647</p>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h2>Nossas soluções aumentam a rentabilidade e visibilidade dos nossos parceiros, ampliando
+                                a oferta de produtos e serviços.</h2>
+                            <ul>
+                                <!--<li><h4>Ampliar a oferta de produtos e serviços pelo varejo</h4></li>-->
+                                <!--<li><h4>Oferecer uma melhor experiência de compra ao consumidor</h4></li>-->
+                                <!--<li><h4>Rentabilizar o negócio dos nossos parceiros</h4></li>-->
+                                <!--<li><h4>Aumentar a visibilidade de marcas e produtos</h4></li>-->
+                                <!--<li><h4>Conectar marcas e consumidores via diferentes tecnologias</h4></li>-->
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 ">RIO DE JANEIRO
+                </div>
+            </div>
+        <!--</section>-->
+
+        <!--&lt;!&ndash; Services Section &ndash;&gt;-->
+        <!--<section  class="business-section josefinfont">-->
+            <div data-anchor="3thPage" id="section3" class="container business-section section">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Nossos Serviços</h1>
+                    </div>
+                </div>
+            </div>
+        <!--</section>-->
+
+        <!-- Contact Section -->
+        <!--<section class="costumers-section josefinfont">-->
+            <div data-anchor="clientsPage" id="section4" class="container costumers-section section">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Nossos Clientes</h1>
+                    </div>
+                </div>
+            </div>
+        <!--</section>-->
+
+        <!-- Contact Section -->
+        <!--<section  class="contact-section josefinfont">-->
+            <div data-anchor="contatoPage" id="section5" class="container contact-section section">
+                <div class="row">
+                    <div class="col-lg-12 section-top">
+                        <h1 class="contact_h1">Fale Conosco</h1>
+                    </div>
+                </div>
+                <br/>
+
+                <div class="contactform">
+
+                    <form action="#">
+                        <label for="fname">Nome</label>
+                        <input type="text" id="fname" name="name" placeholder="Seu Nome">
+
+                        <label for="fmail">E-mail</label>
+                        <input type="text" id="fmail" name="email" placeholder="Seu E-mail">
+
+                        <label for="ftel">Telefone</label>
+                        <input type="text" id="ftel" name="tel" placeholder="Telefone">
+
+                        <label for="subject">Escolha um assunto...</label>
+                        <select id="subject" name="fsubject">
+                            <option value=""></option>
+                            <option value="CartaoPresente">Cartão Presente</option>
+                            <option value="Empresa">Para Empresas</option>
+                            <option value="RecargaCelular">Recarga de Celular</option>
+                            <option value="TrabalheConosco">Trabalhe Conosco</option>
+                        </select>
+
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="fmessage" placeholder="Escreva sua mensagem..." style="height:200px"></textarea>
+
+
+                        <label for="message" id="label-hide" class="hidden cv">
+                            <img class="cv"   src="svg/curriculum.svg">  Currículo
+                        </label>
+                        <input type="file" id="input-hide" class="hidden cv"  name="fileToUpload" id="fileToUpload">
+
+                        <input type="submit" class="btn btn-default btn-default-custom" value="Enviar">
+
+                    </form>
+
+                </div>
+
+            </div>
+        <!--</section>-->
+
+        <!-- Talk Section -->
+        <!--<section class="services-section josefinfont">-->
+            <div data-menuanchor="7thPage" id="section6" class="container services-section section">
+                <div class="row">
+                    <div class="col-lg-12 section-top">
+                        <h1>Nossos escritórios</h1>
+                    </div>
+                </div>
+                <div class="row panel-group section-bot">
+                    <div class="col-lg-4">SÃO PAULO
                         <div id="sidebar">
                             <p class="address"><label>Endereço:</label> Rua Bandeira Paulista, 600 cj. 121/122</p>
-                            <p class="city"><label>Cidade:</label> Rio de Janeiro</p>
-                            <p class="details"><label>Telefone:</label> (21) 2220-4200</p>
+                            <p class="city"><label>Cidade:</label> São Paulo</p>
+                            <p class="details"><label>Telefone:</label> (11) 5213-1011</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 ">RIO GRANDE DO SUL
+                    <div class="col-lg-4 ">BAHIA
                         <div id="sidebar">
-                            <p class="address"><label>Endereço:</label> Av. Auréliano de Figueiredo Pinto, 575 sl. 506</p>
-                            <p class="city"><label>Cidade:</label> Porto Alegre</p>
-                            <p class="details"><label>Telefone:</label> (51) 3224-9711</p>
+                            <p class="address"><label>Endereço:</label> Av. Otávio Mangabeira, 2401 lj 12</p>
+                            <p class="city"><label>Cidade:</label> Salvador</p>
+                            <p class="details"><label>Telefone:</label> (11) 5213-1011</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">PERNANBUCO
+                        <div id="sidebar">
+                            <p class="address"><label>Endereço:</label> Rua Ernesto de Paula Santos, 960 sl. 803</p>
+                            <p class="city"><label>Cidade:</label> Recife</p>
+                            <p class="details"><label>Telefone:</label> (81) 3081-6711</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row panel-group section-bot">
+                        <div class="col-lg-4 ">CEARÁ
+                            <div id="sidebar">
+                                <p class="address"><label>Endereço:</label> Av. Desembargador Moreira, 2020 sl. 505</p>
+                                <p class="city"><label>Cidade:</label> Fortaleza</p>
+                                <p class="details"><label>Telefone:</label> (85) 3261-3647</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 ">RIO DE JANEIRO
+                            <div id="sidebar">
+                                <p class="address"><label>Endereço:</label> Rua Bandeira Paulista, 600 cj. 121/122</p>
+                                <p class="city"><label>Cidade:</label> Rio de Janeiro</p>
+                                <p class="details"><label>Telefone:</label> (21) 2220-4200</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 ">RIO GRANDE DO SUL
+                            <div id="sidebar">
+                                <p class="address"><label>Endereço:</label> Av. Auréliano de Figueiredo Pinto, 575 sl. 506</p>
+                                <p class="city"><label>Cidade:</label> Porto Alegre</p>
+                                <p class="details"><label>Telefone:</label> (51) 3224-9711</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
+        <!--</section>-->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -315,8 +297,28 @@
     <script src="js/scrolling-nav.js"></script>
     <!--<script type='text/javascript' src='/js/jquery.mousewheel.min.js'></script>-->
 
+    <link rel="stylesheet" type="text/css" href="js/jquery-scroll/jquery.fullPage.css" />
+    <!--< rel="stylesheet" type="text/javascript" href="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" />-->
+    <link href="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+
+    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+    <!--<script type="text/javascript" src="js/jquery-scroll/jquery.fullpage.min.js"></script>-->
+    <!--<script type="text/javascript" src="js/jquery-scroll/jquery.fullpage.extensions.min.js"></script>-->
+    <!--<script type="text/javascript" src="js/jquery-scroll/jquery.fullpage.js"></script>-->
+    <!--<script type="text/javascript" src="js/jquery-scroll/jquery.fullpage.min.css"></script>-->
+    <!--<script type="text/javascript" src="js/jquery-scroll/fullpage.scrollOverflowReset.limited.min.js"></script>-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery-scroll/scrolloverflow.js"></script>
+
+    <script type="text/javascript" src="js/jquery-scroll/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/jquery-scroll/examples.js"></script>
+
     <script type="text/javascript">
         $(document).ready(function() {
+
             $("#subject").on("change", function () {
                 if ($("#subject option:selected").val() != "TrabalheConosco" || $("#subject option:selected").val() == undefined) {
                     $("#label-hide, #input-hide").addClass("hidden");
@@ -324,6 +326,20 @@
                     $("#label-hide, #input-hide").removeClass("hidden");
                 }
             });
+//            console.log(
+            $('#fullpage').fullpage({
+                //Navigation
+                menu: '#menu',
+                lockAnchors: false,
+                anchors:['firstPage', 'secondPage', '3thPage', 'clientsPage', 'contatoPage', '7thPage'],
+
+            })
+//            )
+                ;
+
+
+//            $('#fullpage').fullpage();
+
         });
     </script>
 
