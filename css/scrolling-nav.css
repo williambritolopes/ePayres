@@ -53,6 +53,20 @@ html {
  .navbar-nav{
      float:right !important;
  }
+ .costumers {
+     height: 75px;
+ }
+ .customers > img {
+     margin: 0 20px;
+     min-height: 40px;
+     max-height: 70px;
+ }
+ .commentsclients{
+
+     padding-top: 8%;
+     padding-bottom: 10%;
+     padding-left: 3%;
+ }
 
 @media screen and (max-width: 767px) {
     .top-nav-collapse {
@@ -66,6 +80,10 @@ html {
         height: 3em;
         text-align: right;
         font-size: 1.3vw;
+    }
+
+    .navtext {
+        word-break: normal;
     }
     .btn-custom{
         background-color: #CA4935;
@@ -123,6 +141,38 @@ html {
         background-size: auto 100% ;
 
     }
+    .costumers {
+        height: 40px;
+    }
+    .customers > img {
+        margin: 0 20px;
+        min-height: 20px;
+        max-height: 35px;
+    }
+
+    .commentsclients {
+        background: url("../img/quotation.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        /*border: 2px solid #cacaca;*/
+        /*border-radius: 30px;*/
+        position: relative;
+        font-size: 14px;
+        width: 80%;
+        height: 172px !important;
+    }
+    .commentsmarksbot{
+        display: block;
+    }
+
+    .commentsmarks {
+        display: none;
+    }
+
+    #conheca_nossos_clientes{
+        padding-left: 5%;
+    }
+
 
     .intro-section-top {
         padding-top: 10%;
@@ -144,6 +194,11 @@ html {
     .about-section-bot {
         font-size: 14px;
     }
+    .section-bot{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 17px;
+    }
+
     .about-section {
         height: 100%;
         padding-top: 16%;
@@ -296,6 +351,37 @@ html {
 
     }
 
+    .commentsclients {
+        background: url("../img/quotation.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        /*border: 2px solid #cacaca;*/
+        /*border-radius: 30px;*/
+        position: relative;
+        font-size: 14px;
+        height: 100%;
+        width: 240px;
+    }
+
+    .commentsmarksbot{
+        display: none;
+    }
+    .commentsmarks {
+        text-align: right;
+        position: relative;
+        font-size: 30px;
+        height: 100%;
+        width: 240px;
+        padding-left: 5%;
+    }
+    .faleconosco2item{
+        text-align: center
+    }
+
+    #conheca_nossos_clientes{
+        padding-left: 5%;
+    }
+
     .sub-navbar{
         font-size: 23px;
     }
@@ -304,6 +390,7 @@ html {
         color: #213485;
         font-weight: bolder;
         font-size: 1.2em;
+        text-align: center;
     }
 
     .josefinfont {
@@ -492,6 +579,24 @@ html {
          font-size: 1.3vw;
      }
 
+    .commentsclients {
+        background: url("../img/quotation.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        /*border: 2px solid #cacaca;*/
+        /*border-radius: 30px;*/
+        position: relative;
+        font-size: 25px;
+        height: 650px;
+        width: 400px;
+    }
+    #conheca_nossos_clientes{
+        padding-left: 10%;
+    }
+    .commentsmarksbot{
+        display: none;
+    }
+
      input[type=submit] {
          background-color: #CA4935;
          color: #f8f8f8;
@@ -532,6 +637,7 @@ html {
          color: #213485;
          font-weight: bolder;
          font-size: 1.2em;
+         text-align: center;
      }
 
      .josefinfont {
@@ -640,7 +746,11 @@ html {
      .section-top{
          text-align: center;
          font-family: 'Josefin Sans', sans-serif;
-         font-size: 3vw !important;
+         font-size: 1em;
+     }
+     .section-bot{
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 0.7em;
      }
 
 
