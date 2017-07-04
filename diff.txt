@@ -1,0 +1,362 @@
+diff --git a/css/scrolling-nav.css b/css/scrolling-nav.css
+index 33a9ee9..e77dd6b 100755
+--- a/css/scrolling-nav.css
++++ b/css/scrolling-nav.css
+@@ -27,7 +27,7 @@ html {
+      transition: background .5s ease-in-out,padding .5s ease-in-out;
+ }
+ .section{
+-    padding-top: 10% !important;
++    /*padding-top: 10% !important;*/
+ }
+ 
+ .top-nav-collapse {
+@@ -132,7 +132,7 @@ html {
+     .intro-section {
+         height: 100%;
+         width: 100%;
+-        padding-top: 10%;
++        /*padding-top: 10%;*/
+         padding-left: 4%;
+         text-align: left;
+         background: #eee;
+@@ -175,7 +175,7 @@ html {
+ 
+ 
+     .intro-section-top {
+-        padding-top: 10%;
++        /*padding-top: 10%;*/
+         padding-left: 4%;
+     }
+     .section-top{
+@@ -201,14 +201,13 @@ html {
+ 
+     .about-section {
+         height: 100%;
+-        padding-top: 16%;
++        /*padding-top: 16%;*/
+         text-align: center;
+     }
+ 
+     .about-section > div {
+         border-radius: 12px;
+         padding-bottom: 3em;
+-        padding-top: 0em;
+         padding-left: 1em;
+         padding-right: 1em;
+         font-size: 1.5em;
+@@ -218,20 +217,21 @@ html {
+ 
+     .business-section {
+         height: 100%;
+-        padding-top: 150px;
++        /*padding-top: 150px;*/
++
+         text-align: center;
+         background: #fff;
+     }
+ 
+     .costumers-section {
+         height: 100%;
+-        padding-top: 150px;
++        /*padding-top: 150px;*/
+         text-align: center;
+         background: #eee;
+     }
+     .blog-section {
+         height: 100%;
+-        padding-top: 150px;
++        /*padding-top: 150px;*/
+         text-align: center;
+         background: #eee;
+     }
+@@ -268,7 +268,7 @@ html {
+ 
+     .services-section {
+         height: 47%;
+-        padding-top: 5%;
++        /*padding-top: 5%;*/
+         padding-bottom: 2%;
+         text-align: left;
+         background-color: #eee ;
+@@ -412,7 +412,7 @@ html {
+     .intro-section {
+         height: 100%;
+         width: 100%;
+-        padding-top: 10%;
++        /*padding-top: 10%;*/
+         padding-left: 4%;
+         text-align: left;
+         background: #eee;
+@@ -423,7 +423,7 @@ html {
+     }
+ 
+     .intro-section-top {
+-        padding-top: 0%;
++        /*padding-top: 0%;*/
+         padding-left: 4%;
+     }
+ 
+@@ -443,14 +443,14 @@ html {
+     }
+     .about-section {
+         height: 100%;
+-        padding-top: 16%;
++        /*padding-top: 16%;*/
+         text-align: center;
+     }
+ 
+     .about-section > div {
+         border-radius: 12px;
+         padding-bottom: 3em;
+-        padding-top: 0em;
++        /*padding-top: 0em;*/
+         padding-left: 1em;
+         padding-right: 1em;
+         font-size: 1.5em;
+@@ -460,27 +460,27 @@ html {
+ 
+     .business-section {
+         height: 100%;
+-        padding-top: 150px;
++        /*padding-top: 150px;*/
+         text-align: center;
+         background: #ffffff;
+     }
+ 
+     .costumers-section {
+         height: 100%;
+-        padding-top: 150px;
++        /*padding-top: 150px;*/
+         text-align: center;
+         background: #eee;
+     }
+     .blog-section {
+         height: 100%;
+-        padding-top: 150px;
++        /*padding-top: 150px;*/
+         text-align: center;
+         background: #eee;
+     }
+ 
+     .contact-section {
+         height: 100%;
+-        padding-top: 7%;
++        /*padding-top: 7%;*/
+         text-align: left;
+         background: #eee;
+         background-image: url("../img/background_contact.jpg");
+@@ -522,7 +522,7 @@ html {
+ 
+     .services-section {
+         height: 47%;
+-        padding-top: 5%;
++        /*padding-top: 5%;*/
+         padding-bottom: 2%;
+         text-align: left;
+         background-color: #eee ;
+@@ -659,7 +659,7 @@ html {
+      .intro-section {
+          height: 100%;
+          width: 100%;
+-         padding-top: 10%;
++         /*padding-top: 10%;*/
+          padding-left: 4%;
+          text-align: left;
+          background: #eee;
+@@ -670,7 +670,7 @@ html {
+      }
+ 
+      .intro-section-top {
+-         padding-top: 0%;
++         /*padding-top: 0%;*/
+          padding-left: 4%;
+      }
+ 
+@@ -687,14 +687,14 @@ html {
+      }
+      .about-section {
+          height: 100%;
+-         padding-top: 16%;
++         /*padding-top: 16%;*/
+          text-align: center;
+      }
+ 
+      .about-section > div {
+          border-radius: 12px;
+          padding-bottom: 3em;
+-         padding-top: 0em;
++         /*padding-top: 0em;*/
+          padding-left: 1em;
+          padding-right: 1em;
+          font-size: 1.5em;
+@@ -704,27 +704,27 @@ html {
+ 
+      .business-section {
+          height: 100%;
+-         padding-top: 150px;
++         /*padding-top: 150px;*/
+          text-align: center;
+          background: #ffffff;
+      }
+ 
+      .costumers-section {
+          height: 100%;
+-         padding-top: 150px;
++         /*padding-top: 150px;*/
+          text-align: center;
+          background: #eee;
+      }
+      .blog-section {
+          height: 100%;
+-         padding-top: 150px;
++         /*padding-top: 150px;*/
+          text-align: center;
+          background: #eee;
+      }
+ 
+      .contact-section {
+          height: 100%;
+-         padding-top: 7%;
++         /*padding-top: 7%;*/
+          text-align: left;
+          background: #eee;
+          background-image: url("../img/background_contact.jpg");
+@@ -770,7 +770,7 @@ html {
+ 
+      .services-section {
+          height: 47%;
+-         padding-top: 5%;
++         /*padding-top: 5%;*/
+          padding-bottom: 2%;
+          text-align: left;
+          background-color: #eee ;
+diff --git a/index.html b/index.html
+index 1748b6d..6e5d6cd 100755
+--- a/index.html
++++ b/index.html
+@@ -18,8 +18,6 @@
+         <link href="css/scrolling-nav.css" rel="stylesheet">
+ 
+ 
+-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+         <!--[if lt IE 9]>
+             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+@@ -27,7 +25,6 @@
+ 
+     </head>
+ 
+-    <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+ 
+ 
+     <body >
+@@ -71,8 +68,9 @@
+                 <!-- /.container -->
+             </nav>
+             <div id="fullpage" class="josefinfont">
+-            <!-- Intro Section -->
+-                    <div id="section1" class="section intro-section active fp-section fp-table fp-completely" data-anchor="firstPage" >
++
++                <!-- Intro Section -->
++                    <div id="section1" class="section intro-section fp-auto-height-responsive" data-anchor="firstPage" >
+                         <div class="col-lg-12 josefinfont intro-section-top">
+                             <span class="intro-section-top-top">
+                                 A epay Brasil tem a solução certa para aumentar as suas vendas e gerar uma nova experiência de engajamento para o seu público.
+@@ -107,7 +105,7 @@
+                     </div>
+ 
+             <!-- About Section -->
+-                <div data-anchor="secondPage" id="section2" class="section">
++                <div data-anchor="secondPage" id="section2" class="section fp-auto-height-responsive">
+                     <div class="container-fluid" >
+                         <div class="row about-section-top">
+                         </div>
+@@ -159,7 +157,7 @@
+                     </div>
+                 </div>
+ 
+-                <div data-anchor="3thPage" id="section3" class="container business-section section">
++                <div data-anchor="3thPage" id="section3" class="container business-section section fp-auto-height-responsive">
+ 
+                     <div class="row">
+                         <div class="col-xs-3 col-md-2">
+@@ -209,7 +207,7 @@
+ 
+             <!-- Contact Section -->
+             <!--<section class="costumers-section josefinfont">-->
+-                <div data-anchor="clientsPage" id="section4" class="container-fluid costumers-section section">
++                <div data-anchor="clientsPage" id="section4" class="container-fluid costumers-section section fp-auto-height-responsive">
+                     <div>
+                     <h1 class="contact_h1">Clientes</h1>
+                     <marquee direction="left" class="customers">
+@@ -276,7 +274,7 @@
+ 
+             <!-- Contact Section -->
+             <!--<section  class="contact-section josefinfont">-->
+-                <div data-anchor="contatoPage" id="section5" class="contact-section section">
++                <div data-anchor="contatoPage" id="section5" class="contact-section section fp-auto-height-responsive">
+ 
+                     <div class="contactform ">
+                         <h1 class="contact_h1">Fale Conosco</h1>
+@@ -330,7 +328,7 @@
+ 
+         <!-- Talk Section -->
+             <!--<section class="services-section josefinfont">-->
+-                <div data-menuanchor="7thPage" id="section6" class="container services-section section">
++                <div data-menuanchor="7thPage" id="section6" class="container services-section section fp-auto-height-responsive">
+                     <div class="container-fluid">
+                         <div class="row section-top">
+                            Nossos escritórios
+@@ -435,7 +433,7 @@
+                     anchors:['firstPage', 'secondPage', '3thPage', 'clientsPage', 'contatoPage', '7thPage'],
+                     navigation: true,
+                     navigationPosition: 'right',
+-                    navigationTooltips: ['firstPage', 'secondPage', '3thPage', 'clientsPage', 'contatoPage', '7thPage'],
++                    //navigationTooltips: ['firstPage', 'secondPage', '3thPage', 'clientsPage', 'contatoPage', '7thPage'],
+                     showActiveTooltip: false,
+                     slidesNavigation: true,
+                     slidesNavPosition: 'bot',
+@@ -468,28 +466,14 @@
+                     bigSectionsDestination: null,
+ 
+                     //Accessibility
+-                    keyboardScrolling: true,
+                     animateAnchor: true,
+                     recordHistory: true,
+ 
+-                    //Design
+-                    controlArrows: true,
+-                    verticalCentered: true,
+-                    sectionsColor : ['#ccc', '#fff'],
+-                    fixedElements: '#header, .footer',
+-                    responsiveWidth: 0,
+-                    responsiveHeight: 0,
+-                    responsiveSlides: false,
+-                    parallax: false,
+-                    parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+-
+-                    //Custom selectors
+                     sectionSelector: '.section',
+                     slideSelector: '.slide',
+ 
+                     lazyLoading: true,
+ 
+-                    //events
+                     onLeave: function(index, nextIndex, direction){},
+                     afterLoad: function(anchorLink, index){},
+                     afterRender: function(){},
+@@ -503,11 +487,9 @@
+                 });
+ 
+ 
+-    //            $('#fullpage').fullpage();
+-
+             });
+         </script>
+ 
+     </body>
+ 
+-    </html>
++</html>
