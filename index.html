@@ -26,76 +26,109 @@
         <![endif]-->
 
     </head>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container section0" id="section0">
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Scroll</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" data-menuanchor="firstPage" href="#firstPage">
+                    <img src="img/logo_epay.svg">
+                </a>
+            </div>
 
-    <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
+            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-top">
+                <ul class="nav navbar-nav josefinfontTop" id="menu">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="hidden " data-menuanchor="firstPage" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="navtext" data-menuanchor="secondPage" href="#secondPage">Quem Somos</a>
+                    </li>
+                    <li >
+                        <a class="navtext" data-menuanchor="3thPage"  href="#3thPage">Nossos Serviços</a>
+                    </li>
+                    <li>
+                        <a class="navtext"  href="http://epaybrasil.com.br/blog/">Blog</a>
+                    </li >
+                    <li>
+                        <a class="navtext"  href="https://portal.epaybrasil.com.br/site/home/home2.aspx">Portal de Serviços</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
     <body >
+            <div id="fullpage" >
+                <div id="section1" class="section intro-section active fp-section fp-table fp-completely" data-anchor="firstPage" >
+                    <div class="col-lg-12 josefinfont intro-section-top">
+                        <span class="intro-section-top-top">
+                            A epay Brasil tem a solução certa para aumentar as suas vendas e gerar uma nova experiência de engajamento para o seu público.
+                        </span>
+                        <br/>
+                        <br/>
+                            <p>Cartão Presente Marca Própria</p>
+                            <p>Cartão Presente de Grandes Marcas</p>
+                            <p>Cartão Presente Digital</p>
+                            <p>Plataforma de Fidelidade & Relacionamento</p>
+                            <p>Pin Impresso</p>
+                            <p>Recarga de Celular</p>
 
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container section0" id="section0">
-                    <div class="navbar-header ">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                            <span class="sr-only">Scroll</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand logo" data-menuanchor="firstPage" href="#firstPage">
-                            <img src="img/logo_epay.svg">
-                        </a>
                     </div>
+                    <div class="col-lg-1">
 
-                    <div class="collapse navbar-collapse navbar-ex1-collapse navbar-top">
-                        <ul class="nav navbar-nav josefinfontTop" id="menu">
-                            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                            <li>
-                                <a class="hidden " data-menuanchor="firstPage" href="#page-top"></a>
-                            </li>
-                            <li>
-                                <a class="navtext" data-menuanchor="secondPage" href="#secondPage">Quem Somos</a>
-                            </li>
-                            <li >
-                                <a class="navtext" data-menuanchor="3thPage"  href="#3thPage">Nossos Serviços</a>
-                            </li>
-                            <li>
-                                <a class="navtext"  href="http://epaybrasil.com.br/blog/">Blog</a>
-                            </li >
-                            <li>
-                                <a class="navtext"  href="https://portal.epaybrasil.com.br/site/home/home2.aspx">Portal de Serviços</a>
-                            </li>
-                        </ul>
                     </div>
-                    <!-- /.navbar-collapse -->
+                    <div class="col-lg-6">
+                        <div class="btn-group">
+                            <!--<button type="button" class="btn btn-custon btn-lg"> -->
+                            <a class="btn btn-custom" data-menuanchor="contatoPage" href="#contatoPage">Fale conosco</a>
+                            <!--</button>-->
+                        </div>
+
+                        <div class="btn-group">
+                            <!--<button type="button" class="btn btn-custon btn-lg"> -->
+                            <a class="btn btn-custom" data-menuanchor="clientsPage" href="#clientsPage">Conheça nossos clientes</a>
+                            <!--</button>-->
+                        </div>
+                        <!--<button type="button" class="btn btn-custon btn-lg"></button>-->
+                    </div>
                 </div>
-                <!-- /.container -->
-            </nav>
-            <div id="fullpage" class="josefinfont">
-            <!-- Intro Section -->
-                    <div id="section1" class="section intro-section active fp-section fp-table fp-completely" data-anchor="firstPage" >
-                        <div class="col-lg-12 josefinfont intro-section-top">
-                            <span class="intro-section-top-top">
-                                A epay Brasil tem a solução certa para aumentar as suas vendas e gerar uma nova experiência de engajamento para o seu público.
-                            </span>
-                            <br/>
-                            <br/>
-                                <p>Cartão Presente Marca Própria</p>
-                                <p>Cartão Presente de Grandes Marcas</p>
-                                <p>Cartão Presente Digital</p>
-                                <p>Plataforma de Fidelidade & Relacionamento</p>
-                                <p>Pin Impresso</p>
-                                <p>Recarga de Celular</p>
 
-                        </div>
-                        <div class="col-lg-1">
+                <div data-anchor="secondPage" id="section2" class="section">
 
+                    <div class="row about-section-top"></div>
+                    <br />
+                    <div class="row about-section-bot">
+                        
+                        <div class="col-sm-4 col-md-4 col-lg-4" >
+                            Especialista em soluções pré-pagas, a <strong>epay Brasil</strong> é uma empresa do grupo Euronet, maior processadora de transações pré-pagas do mundo.
                         </div>
-                        <div class="col-lg-6">
-                            <div class="btn-group">
+                        <div class="col-sm-4 col-md-4 col-lg-4  ">
+                            Nosso propósito é ampliar a oferta de produtos e serviços no varejo, conectando grandes marcas comseus clientes, oferecendo uma experiência por meio de diferentes tecnologias.
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            Nossas soluções aumentam a rentabilidade e visibilidade dos nossos parceiros, ampliando a oferta de produtos e serviços.
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row contato-bot">
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-3 faleconosco2item">
+                            <div class="btn-group" >
                                 <!--<button type="button" class="btn btn-custon btn-lg"> -->
                                 <a class="btn btn-custom" data-menuanchor="contatoPage" href="#contatoPage">Fale conosco</a>
                                 <!--</button>-->
                             </div>
+                        </div>
+                        <div class="col-lg-3">
 
                             <div class="btn-group">
                                 <!--<button type="button" class="btn btn-custon btn-lg"> -->
@@ -103,58 +136,6 @@
                                 <!--</button>-->
                             </div>
                             <!--<button type="button" class="btn btn-custon btn-lg"></button>-->
-                        </div>
-                    </div>
-
-            <!-- About Section -->
-                <div data-anchor="secondPage" id="section2" class="section">
-                    <div class="container-fluid" >
-                        <div class="row about-section-top">
-                        </div>
-                        <br />
-                        <div class="row about-section-bot">
-                            <div class="col-sm-1 col-lg-1" >
-
-                            </div>
-                            <div class="col-sm-4 col-lg-3" >
-                                Especialista em soluções pré-pagas, a <strong>epay Brasil</strong> é uma empresa do grupo Euronet, maior processadora
-                                    de transações pré-pagas do mundo.
-                                <br>
-                            </div>
-                            <div class="col-sm-4 col-lg-3">
-                                Nosso propósito é ampliar a oferta de produtos e serviços no varejo, conectando grandes marcas comseus clientes, oferecendo uma experiência por meio de diferentes tecnologias.
-                                <br>
-                            </div>
-                            <div class="col-sm-4 col-lg-3">
-                                Nossas soluções aumentam a rentabilidade e visibilidade dos nossos parceiros, ampliando a oferta de produtos e serviços.
-                                <br>
-                            </div>
-                            <div class="col-sm-1 col-lg-1">
-
-                            </div>
-                        </div>
-                        <br />
-                        <div class="row contato-bot">
-                            <div class="col-lg-2">
-                            </div>
-                            <div class="col-lg-3 faleconosco2item">
-                                <div class="btn-group" >
-                                    <!--<button type="button" class="btn btn-custon btn-lg"> -->
-                                    <a class="btn btn-custom" data-menuanchor="contatoPage" href="#contatoPage">Fale conosco</a>
-                                    <!--</button>-->
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-
-                                <div class="btn-group">
-                                    <!--<button type="button" class="btn btn-custon btn-lg"> -->
-                                    <a class="btn btn-custom" data-menuanchor="clientsPage" href="#clientsPage">Conheça nossos clientes</a>
-                                    <!--</button>-->
-                                </div>
-                                <!--<button type="button" class="btn btn-custon btn-lg"></button>-->
-                            </div>
-                            <div class="col-lg-3">
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -428,79 +409,7 @@
                     }
                 });
 
-                $('#fullpage').fullpage({
-                    //Navigation
-                    menu: '#menu',
-                    lockAnchors: false,
-                    anchors:['firstPage', 'secondPage', '3thPage', 'clientsPage', 'contatoPage', '7thPage'],
-                    navigation: true,
-                    navigationPosition: 'right',
-                    navigationTooltips: ['firstPage', 'secondPage', '3thPage', 'clientsPage', 'contatoPage', '7thPage'],
-                    showActiveTooltip: false,
-                    slidesNavigation: true,
-                    slidesNavPosition: 'bot',
-
-                    //Scrolling
-                    css3: true,
-                    scrollingSpeed: 700,
-                    autoScrolling: true,
-                    fitToSection: true,
-                    fitToSectionDelay: 1000,
-                    scrollBar: false,
-                    easing: 'easeInOutCubic',
-                    easingcss3: 'ease',
-                    loopBottom: false,
-                    loopTop: false,
-                    loopHorizontal: true,
-                    continuousVertical: false,
-                    continuousHorizontal: false,
-                    scrollHorizontally: false,
-                    interlockedSlides: false,
-                    dragAndMove: false,
-                    offsetSections: false,
-                    resetSliders: false,
-                    fadingEffect: false,
-                    scrollOverflow: false,
-                    scrollOverflowReset: false,
-                    scrollOverflowOptions: null,
-                    touchSensitivity: 15,
-                    normalScrollElementTouchThreshold: 5,
-                    bigSectionsDestination: null,
-
-                    //Accessibility
-                    keyboardScrolling: true,
-                    animateAnchor: true,
-                    recordHistory: true,
-
-                    //Design
-                    controlArrows: true,
-                    verticalCentered: true,
-                    sectionsColor : ['#ccc', '#fff'],
-                    fixedElements: '#header, .footer',
-                    responsiveWidth: 0,
-                    responsiveHeight: 0,
-                    responsiveSlides: false,
-                    parallax: false,
-                    parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
-
-                    //Custom selectors
-                    sectionSelector: '.section',
-                    slideSelector: '.slide',
-
-                    lazyLoading: true,
-
-                    //events
-                    onLeave: function(index, nextIndex, direction){},
-                    afterLoad: function(anchorLink, index){},
-                    afterRender: function(){},
-                    afterResize: function(){},
-                    afterResponsive: function(isResponsive){},
-                    afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-                    onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
-
-
-
-                });
+                $('#fullpage').fullpage();
 
 
     //            $('#fullpage').fullpage();
