@@ -26,8 +26,7 @@ html {
      -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
      transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
-.section{
-}
+
 
 .top-nav-collapse {
     padding: 0;
@@ -52,22 +51,30 @@ html {
  .navbar-nav{
      float:right !important;
  }
- .costumers {
-     height: 75px;
- }
+
  .customers > img {
      margin: 0 20px;
      min-height: 40px;
      max-height: 70px;
  }
  .commentsclients{
-/
-     padding-top: 8%;
-     padding-bottom: 10%;
+     padding-top: 10%;
+     padding-bottom: 5%;
      padding-left: 3%;
  }
+ .commentsclients1{
+     padding-top: 10%;
+     padding-bottom: 5%;
+     padding-left: 3%;
+ }
+ .tab-pane > img {
+     height: 100%;
+     width: 100%;
+     align-content: center;
+ }
 
-@media screen and (max-width: 767px) {
+
+ @media screen and (max-width: 767px) {
     .top-nav-collapse {
         padding: 0;
     }
@@ -144,9 +151,9 @@ html {
         height: 40px;
     }
     .customers > img {
-        margin: 0 20px;
-        min-height: 20px;
-        max-height: 35px;
+         margin: 0 20px;
+         min-height: 20px;
+         max-height: 35px;
     }
 
     .commentsclients {
@@ -156,9 +163,10 @@ html {
         /*border: 2px solid #cacaca;*/
         /*border-radius: 30px;*/
         position: relative;
-        font-size: 14px;
-        width: 80%;
-        height: 172px !important;
+        font-size: 12px;
+        width: 100%;
+        height: 150px;
+
     }
     .commentsmarksbot{
         display: block;
@@ -217,14 +225,14 @@ html {
 
     .business-section {
         height: 100%;
-        padding-top: 150px;
+        padding-top: 35px;
         text-align: center;
         background: #fff;
     }
 
     .costumers-section {
         height: 100%;
-        padding-top: 150px;
+        padding-top: 35px;
         text-align: center;
         background: #eee;
     }
@@ -249,6 +257,7 @@ html {
         background: transparent;
         background: rgba(248, 248, 248, 0.4);
         border-radius: 12px;
+        padding-top: 40px;
         padding-left: 5%;
         padding-right: 5%;
 
@@ -291,7 +300,8 @@ html {
         width:83%;
     }
 
-    #sidebar{
+    .sidebar{
+        text-align: center;
         font-size: 0.7em;
     }
 
@@ -350,6 +360,19 @@ html {
 
     }
 
+    .commentsclients1 {
+        background: url("../img/quotation.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        /*border: 2px solid #cacaca;*/
+        /*border-radius: 30px;*/
+        position: relative;
+        font-size: 14px;
+        height: 100%;
+        width: 240px;
+        margin-right: 100px;
+    }
+
     .commentsclients {
         background: url("../img/quotation.png");
         background-size: 100% 100%;
@@ -360,25 +383,33 @@ html {
         font-size: 14px;
         height: 100%;
         width: 240px;
+        margin-right: 80px;
     }
 
     .commentsmarksbot{
         display: none;
     }
     .commentsmarks {
-        text-align: right;
+        left: 10%;
+        margin-right:80px;
+        /* margin-left: -430px; */
+        /*text-align: right;*/
+        padding-top: 290px;
         position: relative;
         font-size: 30px;
         height: 100%;
-        width: 240px;
+        width: 280px;
         padding-left: 5%;
+        text-align: left;
     }
     .faleconosco2item{
         text-align: center
     }
 
     #conheca_nossos_clientes{
-        padding-left: 5%;
+        left: 10%;
+        /*margin-left: -430px;*/
+        position: absolute;
     }
 
     .sub-navbar{
@@ -427,7 +458,7 @@ html {
     }
 
     .about-section-top{
-        padding-top: 30%;
+        padding-top: 38%;
         text-align: center;
         background: #eee;
         background-image: url("../img/epay_background_2.jpg");
@@ -439,7 +470,7 @@ html {
     }
     .about-section-bot {
         width: 100%;
-        text-align: justify!important;
+        text-align: center!important;
         padding-right: 5%;
         padding-left: 5%;       
     }
@@ -462,14 +493,22 @@ html {
 
     .business-section {
         height: 100%;
-        padding-top: 150px;
+        padding-top: 50px;
         text-align: center;
         background: #ffffff;
+    }
+    .costumers {
+        height: 100px;
+    }
+    .customers > img {
+        margin: 0 40px;
+        min-height: 40px;
+        max-height: 70px;
     }
 
     .costumers-section {
         height: 100%;
-        padding-top: 150px;
+        padding-top: 8%;
         text-align: center;
         background: #eee;
     }
@@ -550,7 +589,8 @@ html {
         width:83%;
     }
 
-    #sidebar{
+    .sidebar{
+        text-align: left;
         font-size: 0.7em;
     }
 
@@ -589,11 +629,11 @@ html {
         /*border-radius: 30px;*/
         position: relative;
         font-size: 25px;
-        height: 650px;
-        width: 400px;
     }
     #conheca_nossos_clientes{
-        padding-left: 10%;
+    }
+    .commentsmarks{
+        font-size: 30px;
     }
     .commentsmarksbot{
         display: none;
@@ -638,7 +678,7 @@ html {
      .contact_h1{
          color: #213485;
          font-weight: bolder;
-         font-size: 1.2em;
+         font-size: 2em;
          text-align: center;
      }
 
@@ -677,7 +717,7 @@ html {
      }
 
      .about-section-top{
-         padding-top: 28%;
+         padding-top: 38%;
          text-align: center;
          background: #eee;
          background-image: url("../img/epay_background_2.jpg");
@@ -706,14 +746,21 @@ html {
 
      .business-section {
          height: 100%;
-         padding-top: 150px;
-         text-align: center;
-         background: #ffffff;
+         padding-top: 100px;
+         font-size: 22px;
+         background: #eeeeee;
      }
-
+    .costumers {
+        height: 150px;
+    }
+    .customers > img {
+        margin: 0 60px;
+        min-height: 60px;
+        max-height: 120px;
+    }
      .costumers-section {
          height: 100%;
-         padding-top: 150px;
+         padding-top: 50px;
          text-align: center;
          background: #eee;
      }
@@ -725,14 +772,13 @@ html {
      }
 
      .contact-section {
-         height: 100%;
-         padding-top: 7%;
          text-align: left;
          background: #eee;
          background-image: url("../img/background_contact.jpg");
          background-repeat: no-repeat;
-         background-size: cover ;
-
+         background-size: cover;
+         font-size: 12px;
+         padding-top: 5%;
      }
 
      .contactform {
@@ -743,6 +789,7 @@ html {
          font-size: 1.3vw;
          padding-left: 5%;
          padding-right: 5%;
+         height: 100%;
      }
 
      .section-top{
@@ -753,6 +800,7 @@ html {
      .section-bot{
          font-family: 'Josefin Sans', sans-serif;
          font-size: 0.7em;
+         text-align: center;
      }
 
 
@@ -798,7 +846,7 @@ html {
          width:83%;
      }
 
-     #sidebar{
+     .sidebar{
          font-size: 0.7em;
      }
 
