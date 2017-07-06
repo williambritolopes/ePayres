@@ -72,6 +72,9 @@ html {
      width: 100%;
      align-content: center;
  }
+ .img-product {
+     width: 70%;
+ }
 
 
  @media screen and (max-width: 767px) {
@@ -225,9 +228,9 @@ html {
 
     .business-section {
         height: 100%;
-        padding-top: 35px;
+        padding-top: 15%;
         text-align: center;
-        background: #fff;
+        background: #ffffff;
     }
 
     .costumers-section {
@@ -304,6 +307,76 @@ html {
         text-align: center;
         font-size: 0.7em;
     }
+    .tab-pane {
+         padding-left: 5%;
+         padding-top: 5%;
+         padding-right: 5%;
+    }
+    .box-custon {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 2vw;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .box-custon1 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 2vw;
+        text-align: left;
+        margin-top: 10px;
+    }
+     .box-custon3 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 2vw;
+        text-align: left;
+         margin-top: 20px;
+    }
+     .box-custon2 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 2vw;
+        text-align: left;
+         margin-top: 20px;
+    }
+     .img-product {
+         width: 40%;
+     }
+    .img-gifts2 {
+     width: 100%;
+     margin-top: 25px;
+    }
+    .img-gifts3 {
+     width: 100%;
+     margin-top: 25px;
+    }
+    .img-gifts1 {
+     width: 100%;
+     padding-top: 15px;
+    }
+    .img-gifts {
+         width: 100%;
+         margin-top: 20px;
+    }
+    .textbox {
+        padding-top: 5%;
+    }
+    .textboxbot {
+        padding-top: 10%;
+    }
+     .img-gifts4 {
+         width: 100%;
+         margin-top: 40px;
+     }
 
 }
  /*-----------------------------------ACIMA DE 768 px------------------------------------------------------------------------------------- */
@@ -594,8 +667,76 @@ html {
         font-size: 0.7em;
     }
 
+    .tab-pane {
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-right: 5%;
+    }
+    .box-custon {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1vw;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .box-custon1 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1vw;
+        text-align: left;
+    }
+    .box-custon2 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .box-custon3 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1vw;
+        text-align: left;
+        height: 35px;
+    }
+    .img-gifts {
+        width: 100%;
+        margin-top: 45px;
+    }
+    .img-gifts2 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .img-gifts3 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .img-gifts1 {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .img-gifts4 {
+        width: 100%;
+        margin-top: 45px;
+    }
+    .textbox {
+    }
+    .textboxbot {
+        padding-top: 10%;
+    }
+
+
 }
 
+ /*-------------------------------------------- acima de 1441pixels----------------------------------------*/
 @media screen and (min-width: 1441px){
     .navbar {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -748,7 +889,7 @@ html {
          height: 100%;
          padding-top: 100px;
          font-size: 22px;
-         background: #eeeeee;
+         background: #ffffff;
      }
     .costumers {
         height: 150px;
@@ -850,4 +991,74 @@ html {
          font-size: 0.7em;
      }
 
- }
+
+    .tab-pane {
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-right: 5%;
+    }
+    .box-custon {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .box-custon1 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1.2vw;
+        text-align: left;
+    }
+    .box-custon2 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-top: 130px;
+    }
+    .box-custon3 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-top: 130px;
+        height: 130px;
+    }
+    .img-gifts {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .img-gifts1 {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .img-gifts2 {
+        width: 100%;
+        margin-top: 80px;
+    }
+    .img-gifts3 {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .img-gifts4 {
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .textbox {
+    }
+    .textboxbot {
+        padding-top: 10%;
+    }
+
+
+}
