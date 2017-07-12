@@ -1,22 +1,381 @@
-<div class="col-xs-6 col-lg-6 col-md-6">
-    <img class="img-gifts" src="img/products-tab/prod-hgift.jpg">
-    <div class="box-custon">
-        <li>Traz maior conhecimento para a sua marca e negócio;</li>
-        <li>U lizado como ferramenta de troca;</li>
-    </div>
-    <img class="img-gifts" src="img/products-tab/prod-hheart.jpg">
-    <div class="box-custon">
-            <li>Traz maior conhecimento para a sua marca e negócio;</li>
-            <li>U lizado como ferramenta de troca;</li>
-        </div>
-    <img class="img-gifts" src="img/products-tab/prod-hmoney.jpg">
-    <div class="box-custon">
-            <li>Traz maior conhecimento para a sua marca e negócio;</li>
-            <li>U lizado como ferramenta de troca;</li>
-        </div>
-    <img class="img-gifts" src="img/products-tab/prod-hbuild.jpg">
-    <div class="box-custon">
-            <li>Traz maior conhecimento para a sua marca e negócio;</li>
-            <li>U lizado como ferramenta de troca;</li>
-    </div>
-</div>
+/*-------------------------------------------- acima de 1441pixels----------------------------------------
+@media screen and (min-width: 2000px){
+    .navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        height: 70px;
+    }
+    .navbar-top{
+        height: 70px;
+        font-size: 24px;
+        padding-top: 10px;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+    .logo{
+        width: 20em;
+    }
+    .cv {
+        height: 3em;
+        text-align: right;
+        font-size: 1.3vw;
+    }
+
+    .commentsclients {
+        background: url("../img/quotation.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        font-size: 3em;
+        margin-left: 5%;
+    }
+
+    #conheca_nossos_clientes{
+        margin-left: 5%;
+    }
+    .commentsmarks{
+        margin-left:15%;
+        position: relative;
+        font-size: 30px;
+        padding-left: 5%;
+        text-align: right;
+    }
+    .esconde{
+        display: block;
+        left: 10%;
+        margin-right:80px;
+        position: relative;
+        font-size: 30px;
+        height: 100%;
+        padding-left: 10%;
+        text-align: left;
+    }
+    .commentsmarksbot{
+        display: none;
+    }
+
+    input[type=submit] {
+        background-color: #CA4935;
+        color: #f8f8f8;
+        padding: 1.1em 2.2em;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1.4vw;
+    }
+
+    input[type=submit]:hover {
+        background-color: #CA4935;
+    }
+
+    .btn-custom{
+        background-color: #CA4935;
+        color: #f8f8f8;
+        font-size: 50px;
+        text-align: center;
+        position:absolute;
+        font-weight: bolder;
+        height: 150px;
+        width: 500px;
+        border-radius: 27px;
+        font-family: 'Caviar-Dreams-Regular' !important;
+    }
+    .btn-custom1{
+       padding-top: 40px!important;
+
+    }
+    .btn-custom-contato{
+        margin-left: 5%!important;
+    }
+    .btn-div-faleconosco {
+        vertical-align: center;
+        margin-top: 25px;
+        font-size:1.2em;
+        padding-left: 5%;
+    }
+    .div-faleconosco {
+        margin-top: 25px;
+    }
+    .btn-div-conhecanos{
+        text-align: left;
+        margin-left: -50px;
+        margin-top: 25px;
+        font-size:1.2em ;
+        vertical-align: center;
+        margin-bottom: 2px;
+    }
+    .esconde{
+        display: block;
+        left: 10%;
+        margin-right:80px;
+        padding-top: 290px;
+        position: relative;
+        font-size: 30px;
+        height: 100%;
+        padding-left: 10%;
+        text-align: left;
+    }
+    .btn-default-custom{
+        position: relative;
+        margin-left: 89.2%;
+
+    }
+
+    .sub-navbar{
+        font-size: 23px;
+    }
+
+    .contact_h1{
+        color: #213485;
+        font-weight: bolder;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .josefinfont {
+        font-size: 2em;
+        text-align: left;
+        color: #000000;
+    }
+    .josefinfont > p {
+        text-align: left;
+        color: #000000;
+    }
+    .josefinfontTop > li > a{
+        color: #000000 !important;
+    }
+
+    .intro-section {
+        width: 100%;
+        height: 100%;
+        padding-top: 10%;
+        padding-left: 4%;
+        text-align: left;
+        background: #eee;
+        background-image: url("../img/epay_background_1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .intro-section-top {
+        padding-top: 0%;
+        padding-left: 5%;
+    }
+    .intro-section-top > p {
+        margin-left: 50px;
+    }
+
+    .about-section-top{
+        margin-top: 40px;
+        text-align: center;
+        background: #eee;
+        background-image: url("../img/epay_background_2.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        height: 800px;
+    }
+    .about-section-bot > div {
+        font-size: 1.4vw;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .about-section {
+        height: 100%;
+        padding-top: 16%;
+        text-align: center;
+    }
+
+    .about-section > div {
+        border-radius: 12px;
+        padding-bottom: 3em;
+        padding-top: 0em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 1.5em;
+        color: #f8f8f8;
+        text-align: left;
+    }
+
+    .business-section {
+        height: 100%;
+        padding-top: 100px;
+        font-size: 40px;
+        background: #ffffff;
+    }
+    .costumers {
+        height: 150px;
+    }
+    .customers > img {
+        margin: 0 60px;
+        min-height: 60px;
+        max-height: 120px;
+    }
+    .costumers-section {
+        height: 100%;
+        padding-top: 50px;
+        text-align: center;
+        background: #eee;
+    }
+    .blog-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #eee;
+    }
+
+    .contact-section {
+        text-align: left;
+        background: #eee;
+        background-image: url("../img/background_contact.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 12px;
+        padding-top: 5%;
+    }
+
+    .contactform {
+        background: rgb(248, 248, 248);
+        background: transparent;
+        background: rgba(248, 248, 248, 0.4);
+        border-radius: 12px;
+        font-size: 1.3vw;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 100%;
+    }
+
+    .section-top{
+        text-align: center;
+
+
+        font-size: 1em;
+    }
+    .section-bot{
+
+
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+
+    .columid {
+        border-top: none;
+        border-bottom: none;
+        border-left: solid;
+        border-right: solid;
+        border-left-width: 1%;
+        border-left-color: #f8f8f8;
+    }
+    .about-top{
+        text-align: center;
+    }
+
+
+
+    .services-section {
+        height: 47%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: left;
+        background-color: #eee ;
+        background-image: url("../img/Brazil_Blank_Map.png");
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        background-position: left;
+
+    }
+
+
+    .services-section > div {
+        background: rgb(248, 248, 248);
+        background: transparent;
+        background: rgba(60, 60, 60, 0.75);
+        border-radius: 1%;
+        padding-bottom: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 2.5vw;
+        color: #f8f8f8;
+        text-align: left;
+        width:83%;
+    }
+
+    .sidebar{
+        font-size: 0.7em;
+    }
+
+
+    .tab-pane {
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-right: 5%;
+    }
+    .box-custon {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .box-custon1 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1.2vw;
+        text-align: left;
+    }
+    .box-custon2 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-top: 130px;
+    }
+    .box-custon3 {
+        -webkit-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        box-shadow: 9px 4px 3px 0px rgba(0,0,0,0.49);
+        border: 1px solid #c3c5c7;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-top: 130px;
+        height: 130px;
+    }
+    .img-gifts {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .img-gifts1 {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .img-gifts2 {
+        width: 100%;
+        margin-top: 80px;
+    }
+    .img-gifts3 {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .img-gifts4 {
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .textbox {
+    }
+    .textboxbot {
+        padding-top: 10%;
+    }
+
+
+}
